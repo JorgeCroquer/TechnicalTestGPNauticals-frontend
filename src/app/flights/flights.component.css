@@ -1,0 +1,69 @@
+table {
+    width: 100%;
+}
+
+th.mat-sort-header-sorted {
+color: black;
+}
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.table{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    align-self: center;
+}
+
+.filters{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #D1DDF0;
+    padding-top: 80px
+}
+
+.wrapper{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #D1DDF0
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8%;
+}
+.header-title{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+mat-toolbar{
+    background-color: #5784C7;
+    height: 100%;
+}
+
+mat-cell{
+    max-height: 10px;
+}
+
+
+
+
+
+
+
+
+
