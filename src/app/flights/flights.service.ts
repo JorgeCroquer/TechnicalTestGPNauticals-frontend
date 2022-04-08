@@ -14,7 +14,7 @@ export class FlightsService {
 
   //make a function that queries the fligths from an api call
   getFlights(): Observable<FlightsDTO[]> {
-    const host_url = 'http://localhost:8080';
+    const host_url = 'http://localhost:3000';
     const endpoint_url = '/flights';
     const query_params = 'page=1';
     const url = `${host_url}${endpoint_url}?${query_params}`;
