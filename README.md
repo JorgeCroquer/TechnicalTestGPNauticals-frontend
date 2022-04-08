@@ -25,11 +25,3 @@ ng serve
 ```
 
 Now the frontend server is running on port 4200
-
-## Swagger
-
-To access to Swagger documentation, use the following endpoint
-
-```
-http://localhost:8080/api/docs
-```
